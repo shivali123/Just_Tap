@@ -1,0 +1,90 @@
+.box {
+  width: auto;
+  height: auto;
+  border-radius: 4px;
+  padding: 10px;
+  float: left;
+  flex-direction: column;
+  display: flex;
+  margin: 10px 10px;
+  /* background: linear-gradient( #D1D1D1, #D2D2D2,#D3D3D3,#D4D4D4,#CECECE,#D0D0D0); */
+  /* opacity: 0.6; */
+  background-color: #FFFFFF;
+  box-sizing: content-box;
+  border: 3px solid #C0C0C0;
+}
+.scroller {
+  height: 90%;
+  width: 24%;
+  overflow: auto;
+  position: absolute;
+  /* background: linear-gradient( #D1D1D1, #D2D2D2,#D3D3D3,#D4D4D4,#CECECE,#D0D0D0); */
+}
+.text {
+  color: #0098DB;
+  padding: 5px;
+}
+.beforeEditbutton {
+  /* background: linear-gradient( #D1D1D1, #D2D2D2,#D3D3D3,#D4D4D4,#D5D5D5,#D6D6D6); */
+  background: linear-gradient( #62AF3F, #63B040,#5DAA3B,#5AA638,#57A236);
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+  text-align: center;
+  width: 50%;
+  padding:6px;
+  margin: 6px;
+  /* border-color: #CECECE; */
+}
+.afterEditbutton {
+  /* background: linear-gradient( #6D6D6D, #919191); */
+  background: #EC3627;
+  color: white;
+  text-align: center;
+  width: 50%;
+  font-weight: bold;
+  padding:5px;
+  margin: 6px;
+  /* border-color: #CECECE; */
+}
+.buttoncontainer {
+  display: flex;
+  flex-direction: row;
+}
+.container {
+  padding-left: 69%;
+  width: 24%;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 30px;
+  /* background: linear-gradient( #D1D1D1, #D2D2D2,#D3D3D3,#D4D4D4,#CECECE,#D0D0D0); */
+  height: 90%;
+}
+.savebutton {
+  background: linear-gradient( #D1D1D1, #D2D2D2,#D3D3D3,#D4D4D4,#CECECE,#D0D0D0);
+  color: #040404;
+  text-align: center;
+  width: 100%;
+  padding:5px;
+  border-color: #CECECE;
+}
+.inputLat {
+  background-color: #D1D1D1;
+  margin: 6px;
+  color: #0098DB;
+  width: 60%;
+  padding-left: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 10px;
+  border: 2px solid D2D2D2;
+  border-radius: 4px;
+}
+.inputText {
+  color: #0098DB;
+  padding: 2px;
+}
+.flexDirection {
+  flex-direction: row;
+}

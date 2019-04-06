@@ -1,0 +1,36 @@
+@variables { textColor: #0098DB; bgColor: white; accentColor: silver; accentBorder: double silver 5px; }
+
+.head {
+ flex:0.30;
+ flex-direction: row;
+ display: flex;
+ /* background: linear-gradient( #41ADEB, #43ADEB,#42ABEC,#42ACEA,#41ABC9,#3FA9C7,#3CA8E6,#3CA6C2,#3295CC); */
+  background: linear-gradient( #4D7BC4, #4A77C3,#4879C5,#4272BF,#406BBD,#3E6AB6,#3C67B3);
+
+}
+.fields {
+ padding: 10px;
+ color: white;
+ font-weight: bold;
+}
+.input {
+ margin: 16px;
+ color: #0098DB;
+ padding-left: 10px;
+ background: linear-gradient( #D1D1D1, #D2D2D2,#D3D3D3,#D4D4D4,#CECECE,#D0D0D0);
+ padding-top: 6px;
+ padding-bottom: 6px;
+ padding-right: 10px;
+ border-radius: 4px;
+}
+.button {
+ background: linear-gradient( #D1D1D1, #D2D2D2,#D3D3D3,#D4D4D4,#CECECE,#D0D0D0);
+ color: #0098DB;
+ padding: 6px 33px;
+ height: auto;
+ margin: 16px;
+ text-align: center;
+ font-size: 12px;
+ font-weight: bold;
+ border-radius: 4px;
+}
